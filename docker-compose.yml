@@ -2,25 +2,25 @@
 version: "3.8"
 services:
   cricket:
-    image: sravanthi777/zepto:latest
+    image: sravanthi777/billing:latest
     ports:
       - 81:80
     deploy:
       replicas: 3
   zomato:
-    image: sravanthi777/blinkit:latest
+    image: sravanthi777/registration:latest
     ports:
       - 82:80
     deploy:
       replicas: 3
   swiggy:
-    image: sravanthi777/ola:latest
+    image: sravanthi777/radiology:latest
     ports:
       - 83:80
     deploy:
       replicas: 3
   hotstar:
-    image: sravanthi777/rapido:latest
+    image: sravanthi777/laboratory:latest
     ports:
       - 84:80
     deploy:
